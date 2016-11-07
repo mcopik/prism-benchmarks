@@ -1,4 +1,8 @@
 const double T;
 
 //the expected number of reactions between MAPK and MAKK by time T
+// RESULT(N=1,T=30): 6.646104289957944
+// RESULT(N=2,T=30): 22.04722708752542
+// RESULT(N=3,T=30): 36.61456208773991
+// RESULT(N=4,T=30): 48.4910276067730
 "reactions": R{"reactions"}=? [ C<=T ];

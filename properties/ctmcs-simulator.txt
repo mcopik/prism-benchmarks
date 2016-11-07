@@ -1,0 +1,10 @@
+model_file: models_sim
+#ctmcs-cumulative-reward.txt
+../models/ctmcs/cluster/, below_min.csl, T=50000
+../models/ctmcs/cluster, repairs.csl, T=5000
+../models/ctmcs/embedded, danger_T.csl, T=30
+../models/ctmcs/embedded, down_T.csl, T=300
+../models/ctmcs/embedded, up_T.csl, T=10
+../models/ctmcs/mapk_cascade, reactions.csl, T=30
+../models/ctmcs/polling, served.csl, T=30
+../models/ctmcs/polling, waiting.csl, T=30

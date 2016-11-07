@@ -1,4 +1,8 @@
 const double T;
 
 // Expected time spent in "down" by time T (hours)
+// RESULT(MAX_COUNT=5,T=300): 47.29757135858784
+// RESULT(MAX_COUNT=6,T=300): 47.296555181773
+// RESULT(MAX_COUNT=7,T=300): 47.29557471247298
+// RESULT(MAX_COUNT=8,T=300): 47.29460617950997
 "down_T": R{"down"}=? [ C<=(T*3600) ];
