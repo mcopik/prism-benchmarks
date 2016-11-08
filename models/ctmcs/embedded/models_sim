@@ -1,4 +1,2 @@
-embedded.sm -const MAX_COUNT=5
 embedded.sm -const MAX_COUNT=6
-embedded.sm -const MAX_COUNT=7
 embedded.sm -const MAX_COUNT=8

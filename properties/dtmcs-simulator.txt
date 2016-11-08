@@ -1,0 +1,13 @@
+model_file: models_sim
+
+#dtmcs-expected-reachability.txt
+../models/dtmcs/leader_sync, time.pctl
+../models/dtmcs/egl, messagesA.pctl
+../models/dtmcs/egl, messagesB.pctl
+#dtmcs-reachability-qualitative.txt
+../models/dtmcs/leader_sync, eventually_elected.pctl
+#dtmcs-reachability-quantitative.txt
+../models/dtmcs/crowds, positive.pctl
+../models/dtmcs/egl, unfairA.pctl
+../models/dtmcs/egl, unfairB.pctl
+../models/dtmcs/nand, reliable.pctl

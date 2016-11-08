@@ -1,0 +1,6 @@
+model_file: models_sim
+
+#dtmcs-reachability-quantitative.txt
+../models/dtmcs/brp, p1.pctl
+../models/dtmcs/brp, p2.pctl
+../models/dtmcs/brp, p4.pctl

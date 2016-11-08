@@ -1,4 +1,8 @@
 const double T;
 
 // Probability of any failure occurring within T hours
+// RESULT(MAX_COUNT=5): 0.29338956736246247 
+// RESULT(MAX_COUNT=6): 0.29188960210236 
+// RESULT(MAX_COUNT=7): 0.29138711423273767
+// RESULT(MAX_COUNT=8): 0.2912177395363045
 "failure_T": P=? [ F<=(T*3600) "down" ];

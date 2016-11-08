@@ -1,4 +1,8 @@
 const double T;
 
 // Probability of actuator failure within T hours
+// RESULT(MAX_COUNT=5): 0.1943441106414744
+// RESULT(MAX_COUNT=6): 0.19459515269052274
+// RESULT(MAX_COUNT=7): 0.1946791614507859
+// RESULT(MAX_COUNT=8): 0.194707419829387
 "actuators_T": P=? [ !"down" U<=(T*3600) "fail_sensors" ];

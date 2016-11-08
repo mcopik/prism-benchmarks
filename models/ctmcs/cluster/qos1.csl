@@ -1,4 +1,9 @@
 const double T;
 
 // Probability that QoS drops below minimum quality within T time units
+// RESULT(N=2): 0.002897394485820831
+// RESULT(N=4): 0.004557082192709282
+// RESULT(N=8): 0.002970139964600895
+// RESULT(N=16): 0.002603716372171803
+// RESULT(N=32): 0.0025852009400625766
 "qos1": P=? [ F<=T !"minimum" ];

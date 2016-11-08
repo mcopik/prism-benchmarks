@@ -1,4 +1,8 @@
 const double T;
 
 // Probability of sensor failure within T hours
+// RESULT(MAX_COUNT=5): 0.044928156276317494
+// RESULT(MAX_COUNT=6): 0.044952757446004965
+// RESULT(MAX_COUNT=7): 0.04496101759166773
+// RESULT(MAX_COUNT=8): 0.04496382816687678
 "sensors_T": P=? [ !"down" U<=(T*3600) "fail_sensors" ];

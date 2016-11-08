@@ -8,3 +8,24 @@ model_file: models_sim
 ../models/ctmcs/mapk_cascade, reactions.csl, T=30
 ../models/ctmcs/polling, served.csl, T=30
 ../models/ctmcs/polling, waiting.csl, T=30
+#ctmcs-expected-reachability.txt
+../models/ctmcs/mapk_cascade, activated_time.csl
+#ctmcs-instantaneous-rewards.txt
+../models/ctmcs/cluster, operational.csl, T=10
+../models/ctmcs/mapk_cascade, activated_T.csl, T=30
+../models/ctmcs/tandem, customers_T.csl, T=0.6
+#ctmcs-reachability-quantitative.txt
+../models/ctmcs/embedded, actuators.csl
+../models/ctmcs/embedded, io.csl
+../models/ctmcs/embedded, main.csl
+../models/ctmcs/embedded, sensors.csl
+../models/ctmcs/polling, s1_before_s2.csl
+#ctmcs-timebounded-reachability.txt
+../models/ctmcs/cluster, qos1.csl, T=5000
+../models/ctmcs/cluster, qos3.csl, T=50
+../models/ctmcs/embedded, failure_T.csl, T=250
+../models/ctmcs/embedded, sensors_T.csl, T=100
+../models/ctmcs/polling, station1_polled.csl, T=5
+../models/ctmcs/tandem, first_queue.csl, T=0.2
+../models/ctmcs/tandem, network.csl, T=500
+../models/ctmcs/tandem, second_queue.csl, T=0.2

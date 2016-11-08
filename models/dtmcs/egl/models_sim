@@ -1,0 +1,3 @@
+egl.pm -const N=5,L=2
+egl.pm -const N=5,L=3
+egl.pm -const N=10,L=2
