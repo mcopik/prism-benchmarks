@@ -1,6 +1,6 @@
 model_file: models_sim
 #ctmcs-cumulative-reward.txt
-../models/ctmcs/cluster/, below_min.csl, T=50000
+../models/ctmcs/cluster/, below_min.csl, T=5000
 ../models/ctmcs/cluster, repairs.csl, T=5000
 ../models/ctmcs/embedded, danger_T.csl, T=30
 ../models/ctmcs/embedded, down_T.csl, T=300
@@ -15,10 +15,6 @@ model_file: models_sim
 ../models/ctmcs/mapk_cascade, activated_T.csl, T=30
 ../models/ctmcs/tandem, customers_T.csl, T=0.6
 #ctmcs-reachability-quantitative.txt
-../models/ctmcs/embedded, actuators.csl
-../models/ctmcs/embedded, io.csl
-../models/ctmcs/embedded, main.csl
-../models/ctmcs/embedded, sensors.csl
 ../models/ctmcs/polling, s1_before_s2.csl
 #ctmcs-timebounded-reachability.txt
 ../models/ctmcs/cluster, qos1.csl, T=5000

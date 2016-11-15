@@ -4,6 +4,9 @@ model_file: models_sim
 ../models/ctmcs/embedded, danger_time.csl
 ../models/ctmcs/embedded, up_time.csl
 #ctmcs-reachability-quantitative.txt
+../models/ctmcs/embedded, actuators.csl
+../models/ctmcs/embedded, io.csl
+../models/ctmcs/embedded, main.csl
 ../models/ctmcs/embedded, sensors.csl
 #ctmcs-timebounded-reachability.txt
 ../models/ctmcs/embedded, actuators_T.csl, T=250
